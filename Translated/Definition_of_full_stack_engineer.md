@@ -1,22 +1,21 @@
-什么是传说中的全栈工程师
-B8d38d7d67ef
-神们自己 2015.04.26 13:55* 2427 字 41164 次阅读
+The Definition of Full Stack Engineer
+==============================
 
-做这样一个简单的 app:
+Imagine building a simple app like this:
+------------------------------
+A weather forecast app, with clean and simple interface, the weather information is so easy to access. It could not only forecast the weather of the following 10 days, but also get the weather history of some given locations. It can also be used as a reminder on the web, iOS, as well as Android devices.
 
-一个天气应用，干净清爽的界面，天气信息一目了然。它不仅可以精确预测未来 10 天的天气，还可以显示某地的历史天气信息。它具有自定义提醒功能，支持 web 版本， iOS 版， Android 版。
+Why? Because you like travling, but failed to find a app that could provid you the weather information of a specific city in some specific day next month; Because you hate to check the weather information everyday. You would like to be friendly reminded when the temperature becomes higher than 30 degrees Celsius or the temperature difference is larger than +-7 degrees; Becasuse you want to be a 'Full Stack Engineer'. You must restlessly train yourself, on every single 'stack'.
 
-为什么想要做这样一个 App ？因为你喜欢旅行，但没找到一个天气 App 可以提供你下个月或者某个特定月份的天气信息；因为你懒你没有每天看天气预报的习惯，你想要在第二天温度达到 30 度以上或者温差有 +/-7 度的时候，获得温馨提示；因为你要成为一个 Full Stack Engineer ，你必须不断训练每个 stack 的能力。
+## Web Version
 
-## Web版
+You decided to store users data with MySql, and use NoSql for weather data, to build a cache with Redis, caching some of the often requested data. You built the backend with Python, with very simple functionalities, user registration and login, fetching weather data of a specific city, fetching history data of a city, it shouldn't take too long.
 
-你决定用 MySql 来存储用户数据，用 NoSql 存储历史天气数据。你用 Redis 作为 cache ，缓存一些最常请求的天气数据。你用 Python 写后台，功能简单，后台不复杂，用户注册登录，抓取返回某城市的天气数据，某地的历史天气数据，很快便搞定。
+After the backend is all set, then you need to work on the web side. You are so clear how important a good UI design is for a good app. And you are also clear that a UI is not simple in terms of beauty, but in terms of impoving the readability of data and usability of the app. Fortunately you know it. You started to work on hundrands of good UI designs you collected before, you grabbed the classic book <The Design of Everyday Things> --- Norman. Finally you finalized the first version of your UI, simple but straightforward, no redundant design. Every element is well organized. You believe the app will bring its users a good mood even in bad waether.
 
-后台开发并测试好了，接下来是 Web 前端。你十分清楚一个好的 UI 设计对一个 App 的重要性，你也明白 UI 的设计不只是为了美观，更重要的是提高信息的可读性和程序的可用性。幸好你平日的积累这次派上用场了。你把之前保存下来的上百个优秀的UI设计作品拿来研究，你从书架上拿出Norman 的那本经典 - The Design of Everyday Things 重新细读。最终你用白纸黑笔敲定了第一个版本的 UI，简洁直观，没有任何多余的设计，所有元素的排列间距 大小颜色都恰到好处。你相信即使天气不好，但用户只要使用这个 App 都会有着愉悦的心情。
+Let's then start to implemet it. Wait, don't forget Icon and  Logo. What if you never used PS, AI nor Sketch? Just learn them. You have friends in different areas, there happend to be a design girl. She spent a whole afternoon teaching you the basic usage of Sketch, and gave you some advices about your UI design. You thanked her, and then immediately adjusted your UI according to her advices. You drew you design with Ps this time as well as Icons and  a Logo.
 
-那么开始写前端吧。啊，别急，都忘了还有 Icon 和 Logo ，可是不会 PS ，不会 AI ，不会 Sketch 怎么办呢，学吧。你平日喜欢结交不同领域的朋友，正好几周前在一个活动上你认识一位朋友做设计的。她花一个下午的时间教你基本的 Sketch 的使用，并对你的 UI 设计给出了一些意见。你请她吃了顿晚饭表示感谢，然后立即回家根据她的一些建议重新调整了 UI ，这次你在 PS 里把 UI 画了出来，Icons 和 Logo 也顺道一起做了。
-
-接下来的一周，你学习 HTML，CSS，以及 Javascript，并漂亮地把前端搞定。
+In the next week, you learned  HTML,CSS and Javiascript, perfectly got the web side done.
 
 ## 发布 App
 
@@ -76,4 +75,4 @@ Engineer 的本质工作是设计，开发出应用于大众的产品。
 
 以上，为我认可的 Full Stack Engineer。
 
-转载自：http://www.zhihu.com/question/22420900，感谢作者顾鹏，让我终于明白了怎样用一个高大上的名词来传播我的理念。
+转载自：http://www.zhihu.com/question/22420900
