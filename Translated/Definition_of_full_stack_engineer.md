@@ -5,74 +5,74 @@ Imagine building a simple app like this:
 ------------------------------
 A weather forecast app, with clean and simple interface, the weather information is so easy to access. It could not only forecast the weather of the following 10 days, but also get the weather history of some given locations. It can also be used as a reminder on the web, iOS, as well as Android devices.
 
-Why? Because you like travling, but failed to find a app that could provid you the weather information of a specific city in some specific day next month; Because you hate to check the weather information everyday. You would like to be friendly reminded when the temperature becomes higher than 30 degrees Celsius or the temperature difference is larger than +-7 degrees; Becasuse you want to be a 'Full Stack Engineer'. You must restlessly train yourself, on every single 'stack'.
+Why? Because you like traveling, but failed to find a app that could provide you the weather information of a specific city in some specific day next month; Because you hate to check the weather information everyday. You would like to be friendly reminded when the temperature becomes higher than 30 degrees Celsius or the temperature difference is larger than +-7 degrees; Because you want to be a 'Full Stack Engineer'. You must restlessly train yourself, on every single 'stack'.
 
 ## Web Version
 
 You decided to store users data with MySql, and use NoSql for weather data, to build a cache with Redis, caching some of the often requested data. You built the backend with Python, with very simple functionalities, user registration and login, fetching weather data of a specific city, fetching history data of a city, it shouldn't take too long.
 
-After the backend is all set, then you need to work on the web side. You are so clear how important a good UI design is for a good app. And you are also clear that a UI is not simple in terms of beauty, but in terms of impoving the readability of data and usability of the app. Fortunately you know it. You started to work on hundrands of good UI designs you collected before, you grabbed the classic book <The Design of Everyday Things> --- Norman. Finally you finalized the first version of your UI, simple but straightforward, no redundant design. Every element is well organized. You believe the app will bring its users a good mood even in bad waether.
+After the backend is all set, then you need to work on the web side. You are so clear how important a good UI design is for a good app. And you are also clear that a UI is not simple in terms of beauty, but in terms of improving the readability of data and usability of the app. Fortunately you know it. You started to work on hundreds of good UI designs you collected before, you grabbed the classic book <The Design of Everyday Things> --- Norman. Finally you finalized the first version of your UI, simple but straightforward, no redundant design. Every element is well organized. You believe the app will bring its users a good mood even in bad weather.
 
-Let's then start to implemet it. Wait, don't forget Icon and  Logo. What if you never used PS, AI nor Sketch? Just learn them. You have friends in different areas, there happend to be a design girl. She spent a whole afternoon teaching you the basic usage of Sketch, and gave you some advices about your UI design. You thanked her, and then immediately adjusted your UI according to her advices. You drew you design with Ps this time as well as Icons and  a Logo.
+Let's then start to implement it. Wait, don't forget Icon and  Logo. What if you never used PS, AI nor Sketch? Just learn them. You have friends in different areas, there happened to be a design girl. She spent a whole afternoon teaching you the basic usage of Sketch, and gave you some advices about your UI design. You thanked her, and then immediately adjusted your UI according to her advices. You drew you design with Ps this time as well as Icons and  a Logo.
 
-In the next week, you learned  HTML,CSS and Javiascript, perfectly got the web side done.
+In the next week, you learned  HTML,CSS and Javascript, perfectly got the web side done.
 
-## 发布 App
+## First release
 
-在朋友圈发了个状态，找人帮你做 Beta 测试。他们都首先问你是什么 App，一开始你简单回答一个天气的 App。但你发现，这不能提起他们的兴趣。你觉得你需要用语言，用故事包装一下。不光是作为别人「是什么 App」提问的回答，也是成为 Full stack Engineer 道路上的一个重要技能。
+You sent a moment about your app, wanted to invite some friend for a Beta test. They asked you what app is it. 'A weather app' you simply answered. But you then noticed that, they were not interested. You felt you need something more or even a story to describe what this app is about. This is the answer to their question, as well as an important skill of becoming a 'full stack engineer'.
 
-你去看了所有你喜欢的产品的主页，从他们的文案上获得一些灵感启发；你读了经典的 On Writing Well ，发现好的文案，好的设计，其实和好的代码很相似，都是重在交流，如何让他人毫不费劲地明白你要表达的内容。你的故事要吸引人，你的产品介绍要在1分钟内解释清楚，并确保你的父母可以毫无压力听明白。
+You went to home pages of websites you like, trying to be enlightened by their designs. You red the classic book <On Writing Well> . And you found that, a good advertisement, a good design and a piece of good code are the same thing. The point of them are consistent: communication, conveying your ideas to others in a easy way. Your story needs to be attractive, and you need to be able to tell others what your app does within 1 minute, and make sure your parents can get the idea without being confused.
 
-一切就绪，产品上线了。反响不错，用户持续增加。很多用户希望有移动版本，于是你立即投入到iOS 版本的开发上。
+After everything is done, you release it. It was getting positive feedbacks, and the user amount is also growing. Some users told you they hope to have an iOS version. Then you decided to start to work on your iOS version.
 
-## iOS 版 及 后台优化
+## iOS Version and Backend Optimization
 
-你花一周不到时间学习了基本的语法和工具使用便投入到 App 的开发中。你知道 Learn by Doing 是最好也是最快的。由于之前学习了设计的基础，UI ，Icons 很快搞定，不久 iOS 版本便发布了。iOS 的发布带来了更多的用户增长，后台服务器的压力颇大，你知道是时候优化后台了。
+You spent less than a week learning the basic grammar and tools and started the development. You knew 'Learn by Doing' is the best way. Since you already got the design background, you set up the UI and Icons pretty fast, a very short moment later, the iOS version is released. Since the releasing of iOS version brought more and more users, the load of the backend was getting heavier and heavier, you knew it is time now, to optimize the backend.
 
-你在 AWS 上多开了 2 台服务器，并写了一个 Script 来自动化部署过程。
+You ordered 2 more instances on AWS, and wrote a script to automize the deployment.。
 
-你改用 uWSGi 协议，用 uwsgi 作为 Application Server。
+You switched to uWSGi protocol, used it as the Application Server.
 
-你使用 Nginx 来做并发，负载均衡 ...
-
-......
+You used  Nginx for concurrency and load balancing ...
 
 ......
 
-## 成立公司
+......
 
-用户持续增长，每天你都会收到十几二十封用户的邮件。你很感激这些愿意花时间给你写邮件的用户，你相信他们是你最重要的用户，是潜在的付费用户。如果你把他们像上帝一样对待，他们同样也会把你看作是上帝。所以除了睡觉时间的发来的邮件，每一封邮件，你都会在2小时内给予回复。
+## Setting up a company
 
-果然这样的付出是收获巨大的，他们不仅惊讶且非常感谢你的快速回复，他们会在app store里给你★★★★★的评价，他们在社交网站上分享你的app，他们甚至会主动提出捐款给你。
+As the number of users kept growing, you could get 10-20 emails from users everyday. You felt thankful for their time, you believed they are your most important users and the potential users who are going to pay for the app. If you treated them as your gods, they would treat you as their god. So you reply to every single of these emails within 2 hours unless you were sleeping.
 
-你从快速的用户增长中嗅到了商机，你开始思考如何赚钱。广告你是坚决不能允许的，你认为再精确的广告也会影响用户体验。你设计了 2 个不同的付费方案，你打算用 A/B 测试看哪个方案更好。你分别给 200 个用户发去邀请尝试付费的邮件，邮件内容你精心打磨过，并在最后写上：CEO & Founder. 通过分析 2 种方案的用户行为，你决定将使用第一种方案。
+You paid a lot for doing this, but you also gained a lot by doing this. They were surprised that you could response so fast. They decided to give your ★★★★★ reviews in the app store, share your app in social networks. They even started to donate you voluntarily. 
 
-接下来，你相信差不多是时候成立个公司了。为了省时间，你花 2000 块钱找了个园区挂靠并帮你注册公司。公司的名字让你头疼了很久，你不想只是简单的用这个 App 的名字作为公司名字，你知道公司将来还会做出其他优秀的产品。你希望这个名字简单易记，同时其含义也是你公司文化的象征。
+You smelled opportunity in the fast grow user number. You then started to think about how to make money. Advertisement is the last choice, you believed even with the best targeting technology, advertisement ruins the user experience. You designed 2 payment plans, tried to make the final decision by A/B testing. You sent out 200 emails to invite users to try your paid version. You worked so hard and carefully about the email content, added your name with CEO & Founder in the end. After analysing user behaviours under these 2 plans, you finally picked plan B.
 
-公司注册下来了，但银行那边得自己跑。你联系了一些媒体编辑，邀请他们来试用你的产品；你重新设计了产品主页，并开始写产品的 Blog ；你在各大社交网络都给 App 注册了账号，即做社区客服也为宣传... 这些事大大压缩你写代码的时间。以往你都是以代码量作为衡量自己当天工作效率的指标，所以这些天你总感觉没做啥工作。
+You thought then, it is time to set up a company. To save time, you spent 2000 to find a incubator and they registered a company for you. The name of the company gave you a headache. You didn't want to simply use the app name as the company name, because you knew you will build more good apps under the name of this company. You wanted a simple name which is easy to remember and could express the culture of your company.
 
-这样的发展早已超过你的预期，这个 App 从一个 Side Project 几乎变成了你生活的全部。你跟你女朋友半个月才出去约会一次，她抱怨不断；你1个月没跟朋友出去玩耍喝酒了；你 2 个月都没锻炼过身体... 你意识到, YOU CAN NOT DO THIS ALONE，你需要帮手，你需要找人一起把这个做下去。
+Then you finished the registration, contacted the bank side on your own. You also contacted some media guys, inviting them to try your product. You redesigned the homepage of your product, and  set up a blog for it. You registered public accounts in every social network, for your customer service and product publicity... These stuffs compressed you coding time. You used to measure your production of a day by code commits, thus making you think you are doing nothing in recently.
 
-但你不是要成为 Full Stack Engineer 么？你现在是了么？
+The development was far more beyond your expectation. The app, from a side project, became your entire life. You hung out with your girl friend once a month, and she was complaining a lot. You had not gone to a bar with your friends for 1 month, and had not gone to gym for 2 months... You realised that, YOU CAN NOT DO THIS ALONE, you need someone to help, to keep this going on.
+
+But didn't you want to be a  Full Stack Engineer? Are you a full stack engineer now?
 
 ## Full Stack Engineer
 
-设计，后台开发，前端开发，移动开发，运营维护，PS，文案... 好像都会了，这算 Full Stack Engineer 了么？
+Design，backend, frontend，mobile side, service engineering, photo shop, publication... Now I can do them all, am I a Full Stack Engineer?
 
-不，这只是踏上成为 Full Stack Engineer 的第一步。你知道目前只是每个 stack 都懂一点，离senior 或者 expert 还差得远，而要每个 stack 都做到极致，需要大量的时间和精力。精力有限，产品开发紧迫，力不从心啊，这条道路也太孤独，因为你不需要与任何人进行协作。难道要把一些stack的任务交给别人做么？这样算是放弃成为 Full Stack Engineer 么？
+No, this is just the first step of becoming a  Full Stack Engineer. So far, you know a little bit on every  stack, but you are still far from senior or expert, it requires a lot of time and effort to become good on every stack. But time and effort are both limited, and this is a lonely road that you can communicate to no one else. Do I have to allocate some of the works to someone else? By doing this, am I still a Full Stack Engineer?
 
-不！这不是。
+The answer is NO.
 
-什么是 Engineer？「Engineers are versatile minds who create links between science, technology, and society」。
+What is Engineer？'Engineers are versatile minds who create links between science, technology, and society'.
 
-Engineer 的本质工作是设计，开发出应用于大众的产品。
+The essential of a engineer is to design and develop products that could be used by public.
 
-一个真正的 Full Stack Engineer ，他从生活中发现问题，洞察需求，他设计解决方案，并开发出初始版本的产品。为了达到目标，他愿意去学习任何领域的技能和知识。同时他不追求一个人完成所有工作，如果有人可以比他在某方面做得更出色，便会十分热情的邀请他们加入。
+A real Full Stack Engineer can always find out problems and requirements in real life. And he can also come up with a solution, and build the prototype. To achieve this, he is always willing to learn technologies of every aspects, and not pursuing to achieve this on his own. If someone could do better in an aspect, he will always try to invite him to join the team.
 
-最终他的职位也许不再是 Engineer ，他不再设计 UI ，不再写代码 ... 他的工作不再是 design and building an app or product，因为他有更大更重要的任务要做 - design and building a team or a company which builds great products.
+Finally he's not an  Engineer any more. He no longer designs UI nor the code ... His job is no longer  design and building an app or product, because he now has something more important to do  - design and building a team or a company which builds great products.
 
-而这时，社会给了他们另一个称呼 - 创业者。尽管众人已忘记他们 Engineer 的身份，但在他们骨子里，内心深处，自己始终都是一个 Engineer 。当他们需要从头再来时，他们毫不犹豫从设计开发产品做起。Nikola Tesla，Ferdinand Porsche，Henry Ford，Jack Dorsey，Mark zuckerberg，Elon Musk ... 细数那些改变了或正改变世界的创业者，他们大多数是 Engineer 背景，热衷于设计创造。他们学习技能和知识，不是为了成为某个领域的专家；而是因为那些 是完成自己目标所需要的。
+Now, we have a new name for these guys - entrepreneurs. Although other people already forgot they were engineerings, but they are engineers, inside. When they need to start from scratch again, they will start from product design without any hesitation. Nikola Tesla，Ferdinand Porsche，Henry Ford，Jack Dorsey，Mark zuckerberg，Elon Musk ... those who changed the world, most of them have Engineer background, and good at designing and building things. They learn, not to become experts of an area, but to get information they need to achieve their goals.
 
-以上，为我认可的 Full Stack Engineer。
+That is the definition of Full Stack Engineer in my mind.
 
-转载自：http://www.zhihu.com/question/22420900
+From：http://www.zhihu.com/question/22420900
