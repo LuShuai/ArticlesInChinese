@@ -3,9 +3,9 @@ The Definition of Full Stack Engineer
 
 Imagine building a simple app like this:
 ------------------------------
-A weather forecast app, with clean and simple interface, the weather information is so easy to access. It could not only forecast the weather of the following 10 days, but also get the weather history of some given locations. It can also be used as a reminder on the web, iOS, as well as Android devices.
+A weather forecast app, with clean and simple interface, the weather information is so easy to access. It could not only forecast the weather of the following 10 days, but also get the weather history of some given locations. It can also be used as a reminder on web, iOS, as well as Android devices.
 
-Why? Because you like traveling, but failed to find a app that could provide you the weather information of a specific city in some specific day next month; Because you hate to check the weather information everyday. You would like to be friendly reminded when the temperature becomes higher than 30 degrees Celsius or the temperature difference is larger than +-7 degrees; Because you want to be a 'Full Stack Engineer'. You must restlessly train yourself, on every single 'stack'.
+Why? Because you like traveling, but failed to find an app that could provide you the weather information of a specific city in some specific day next month; Because you hate to check the weather information everyday. You would like to be friendly reminded when the temperature becomes higher than 30 degrees Celsius or the temperature difference is larger than +-7 degrees; Because you want to be a 'Full Stack Engineer'. You must restlessly train yourself, on every single 'stack'.
 
 ## Web Version
 
